@@ -1,8 +1,11 @@
+import turtle
 from tkinter import *
 
 window_width = 800
 window_height = 800
 root = Tk()
+turt = turtle.Turtle()
+turt.penup
 
 canvas = Canvas(root, width=window_width, height=window_height, borderwidth=0, highlightthickness=0, bg="#000050")
 canvas.grid()
@@ -20,11 +23,11 @@ def mouse_pressed(event):
     # This defines the x and y coordinated of all three points
     # of a triangle
     points = [x, y, x - 50, y + 100, x + 50, y + 100]
-    canvas.create_polygon(points, fill='gray', width=2) # draws triangle
+    canvas.create_polygon(points, fill='#C0C0C0', width=2) # draws triangle
     
     # 1. Add details to your rocket to make it look better. You can look at
     #    rocket.png for inspiration.
-    
+
     # 2. Modify the locations of the shapes above so the rocket will be drawn
     #    where the mouse is clicked
     

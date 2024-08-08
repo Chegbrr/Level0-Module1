@@ -7,7 +7,9 @@ import math
 #       The formula for the area of a circle is πr^2.
 #       See example image in package to check your output.
 
-if __name__ == '__main__':
+if __name__ == '__main__':f __name__ == '__main__':
+    window = Tk()
+    window.withdraw()
     window = Tk()
     window.withdraw()
 
